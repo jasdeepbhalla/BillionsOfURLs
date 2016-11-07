@@ -14,4 +14,4 @@
 * Using Patricia Trees to check for bad IP addresses with bad subnets. 
 
 ####Read More About Patricia Trees:
-http://indigoo.com/petersblog/?p=45
+- http://indigoo.com/petersblog/?p=45
