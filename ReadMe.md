@@ -11,11 +11,11 @@
 
 ####Approach
 
-*Using Inverted Index HashMap: invertedIndex<BadString, [List of URLs containing BadStrings]>
+..*Using Inverted Index HashMap: invertedIndex<BadString, [List of URLs containing BadStrings]>
 
-*Using Bloom Filers to get O(1) lookup (as we have millions of URLS)
+..*Using Bloom Filers to get O(1) lookup (as we have millions of URLS)
 
-*Using Patricia Trees to check for bad IP addresses with bad subnets. 
+..*Using Patricia Trees to check for bad IP addresses with bad subnets. 
 
 ####Read More About Patricia Trees:
 http://indigoo.com/petersblog/?p=45
