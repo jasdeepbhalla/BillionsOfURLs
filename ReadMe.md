@@ -8,9 +8,13 @@ Problem Statement:
 
 3. Checking if the given URL's IP Address is part of an existing subnet or not.
 
-Approach:
+
+<strong>Approach</strong>:
+
 Using Inverted Index HashMap: invertedIndex<BadString, [List of URLs containing BadStrings]>
+
 Using Bloom Filers to get O(1) lookup (as we have millions of URLS)
+
 Using Patricia Trees to check for bad IP addresses with bad subnets. 
 
 Read More About Patricia Trees:
