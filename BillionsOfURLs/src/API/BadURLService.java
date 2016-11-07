@@ -8,12 +8,11 @@ public class BadURLService {
 
 	}
 
-	public List<String> getUrlList() {
-
+	public List<String> getBadUrlList() {
 		return null;
 	}
 
-	public void setUrlList(List<String> list) {
+	public void setBadUrlList(List<String> list) {
 
 	}
 

@@ -11,4 +11,8 @@ public class BadSubnetURL {
 
 	}
 
+	public boolean searchInPT() {
+		return false;
+	}
+
 }
