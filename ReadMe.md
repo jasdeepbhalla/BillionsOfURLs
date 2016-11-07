@@ -9,7 +9,7 @@
 
 ####Approach
 
-* Using Inverted Index HashMap: `invertedIndex<BadString, [List of URLs containing BadStrings]>`
+* Using Inverted Index HashMap: `invertedIndex<BadString, List<URLs containing BadString>>`
 * Using Bloom Filers to get O(1) lookup (as we have millions of URLS)
 * Using Patricia Trees to check for bad IP addresses with bad subnets. 
 
